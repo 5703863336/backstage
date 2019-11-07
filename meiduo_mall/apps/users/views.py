@@ -107,7 +107,7 @@ class LoginView(View):
         # 认证成功返回User对象
         # 认证失败返回None
         from django.contrib.auth.backends import ModelBackend
-        user = authenticate(username=username,password=password)
+        user = authenticate(request,username=username,password=password)
         if user is None:
             return HttpResponseBadRequest('用户名或密码错误')
         # ④ 状态保持

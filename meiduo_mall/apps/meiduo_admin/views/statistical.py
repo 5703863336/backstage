@@ -1,10 +1,12 @@
+from rest_framework.generics import ListAPIView
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.permissions import IsAdminUser
 from datetime import date, timedelta
 
 from apps.goods.models import GoodsVisitCount
-from apps.meiduo_admin.serializers import GoodsSerializer
+from apps.meiduo_admin.serializers.statistical import GoodsSerializer
+
 from apps.users.models import User
 
 
@@ -61,15 +63,12 @@ class UserMonthCountView(APIView):
             })
         return Response(everyday_count)
 
-class GoodsDayView(APIView):
+class GoodsDayView(ListAPIView):
 
-    def get(self,request):
-
+        serializer_class = GoodsSerializer
         now_day = date.today()
 
-        data = GoodsVisitCount.objects.filter(date__gte=now_day)
-        ser = GoodsSerializer(data,many=True)
+        queryset = GoodsVisitCount.objects.filter(date__gte=now_day)
 
-        return Response(ser.data)
 
 

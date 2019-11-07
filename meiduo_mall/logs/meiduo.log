@@ -15047,3 +15047,2105 @@ INFO 2019-11-05 12:48:39,236 basehttp 124 "GET /meiduo_admin/statistical/day_act
 INFO 2019-11-05 12:48:39,247 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 11
 INFO 2019-11-05 12:48:39,259 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 37
 INFO 2019-11-05 12:48:39,297 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2019-11-07 01:20:32,291 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+INFO 2019-11-07 01:20:32,600 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 239
+INFO 2019-11-07 01:20:32,771 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-11-07 01:20:32,773 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-11-07 01:20:32,775 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-11-07 01:20:32,781 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-11-07 01:20:32,782 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-11-07 01:20:32,786 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-11-07 01:20:32,790 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-11-07 01:20:32,792 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+INFO 2019-11-07 01:20:32,863 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 11
+INFO 2019-11-07 01:20:32,891 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 2
+INFO 2019-11-07 01:20:32,895 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 11
+INFO 2019-11-07 01:20:32,896 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 11
+INFO 2019-11-07 01:20:32,922 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 11
+INFO 2019-11-07 01:20:32,923 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 11
+INFO 2019-11-07 01:20:32,943 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 11
+INFO 2019-11-07 01:20:32,955 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2019-11-07 01:20:54,922 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 11
+INFO 2019-11-07 01:20:54,930 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 11
+INFO 2019-11-07 01:20:54,941 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 11
+INFO 2019-11-07 01:20:54,951 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 11
+INFO 2019-11-07 01:20:54,987 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 2
+INFO 2019-11-07 01:20:55,017 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 11
+INFO 2019-11-07 01:20:55,037 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 11
+INFO 2019-11-07 01:20:55,067 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2019-11-07 01:21:39,257 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 11
+INFO 2019-11-07 01:21:39,265 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 11
+INFO 2019-11-07 01:21:39,283 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 11
+INFO 2019-11-07 01:21:39,304 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 11
+INFO 2019-11-07 01:21:39,353 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 11
+INFO 2019-11-07 01:21:39,353 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 37
+INFO 2019-11-07 01:21:39,356 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 11
+INFO 2019-11-07 01:21:39,420 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2019-11-07 04:12:46,134 basehttp 124 "OPTIONS /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+WARNING 2019-11-07 04:12:46,373 base 152 Not Found: /meiduo_admin/users/
+WARNING 2019-11-07 04:12:46,374 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 404 10264
+WARNING 2019-11-07 04:13:37,978 base 152 Not Found: /meiduo_admin/users/
+WARNING 2019-11-07 04:13:37,988 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 404 10264
+INFO 2019-11-07 04:15:57,914 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 230
+INFO 2019-11-07 04:16:02,757 basehttp 124 "OPTIONS /meiduo_admin/users/?page=1&pagesize=10&keyword=sa HTTP/1.1" 200 0
+INFO 2019-11-07 04:16:02,890 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword=sa HTTP/1.1" 200 141
+INFO 2019-11-07 04:22:03,351 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 230
+INFO 2019-11-07 04:22:50,495 basehttp 124 "OPTIONS /meiduo_admin/users/ HTTP/1.1" 200 0
+WARNING 2019-11-07 04:22:50,603 basehttp 124 "POST /meiduo_admin/users/ HTTP/1.1" 400 36
+WARNING 2019-11-07 04:23:15,361 basehttp 124 "POST /meiduo_admin/users/ HTTP/1.1" 400 36
+INFO 2019-11-07 04:24:53,028 basehttp 124 "OPTIONS /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-11-07 04:24:53,196 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 230
+ERROR 2019-11-07 04:25:31,892 exception 135 Internal Server Error: /meiduo_admin/users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/generics.py", line 242, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/users.py", line 35, in create
+    user = super().create(**validated_data)
+TypeError: create() got an unexpected keyword argument 'mobile'
+ERROR 2019-11-07 04:25:31,991 basehttp 124 "POST /meiduo_admin/users/ HTTP/1.1" 500 19880
+ERROR 2019-11-07 04:25:38,445 exception 135 Internal Server Error: /meiduo_admin/users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/generics.py", line 242, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/users.py", line 35, in create
+    user = super().create(**validated_data)
+TypeError: create() got an unexpected keyword argument 'mobile'
+ERROR 2019-11-07 04:25:38,462 basehttp 124 "POST /meiduo_admin/users/ HTTP/1.1" 500 19880
+ERROR 2019-11-07 04:25:43,756 exception 135 Internal Server Error: /meiduo_admin/users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/generics.py", line 242, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/users.py", line 35, in create
+    user = super().create(**validated_data)
+TypeError: create() got an unexpected keyword argument 'mobile'
+ERROR 2019-11-07 04:25:43,777 basehttp 124 "POST /meiduo_admin/users/ HTTP/1.1" 500 19880
+ERROR 2019-11-07 04:25:43,947 exception 135 Internal Server Error: /meiduo_admin/users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/generics.py", line 242, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/users.py", line 35, in create
+    user = super().create(**validated_data)
+TypeError: create() got an unexpected keyword argument 'mobile'
+ERROR 2019-11-07 04:25:43,984 basehttp 124 "POST /meiduo_admin/users/ HTTP/1.1" 500 19880
+ERROR 2019-11-07 04:25:44,151 exception 135 Internal Server Error: /meiduo_admin/users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/generics.py", line 242, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/users.py", line 35, in create
+    user = super().create(**validated_data)
+TypeError: create() got an unexpected keyword argument 'mobile'
+ERROR 2019-11-07 04:25:44,175 basehttp 124 "POST /meiduo_admin/users/ HTTP/1.1" 500 19880
+ERROR 2019-11-07 04:25:44,328 exception 135 Internal Server Error: /meiduo_admin/users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/generics.py", line 242, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/users.py", line 35, in create
+    user = super().create(**validated_data)
+TypeError: create() got an unexpected keyword argument 'mobile'
+ERROR 2019-11-07 04:25:44,351 basehttp 124 "POST /meiduo_admin/users/ HTTP/1.1" 500 19880
+ERROR 2019-11-07 04:25:44,491 exception 135 Internal Server Error: /meiduo_admin/users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/generics.py", line 242, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/users.py", line 35, in create
+    user = super().create(**validated_data)
+TypeError: create() got an unexpected keyword argument 'mobile'
+ERROR 2019-11-07 04:25:44,514 basehttp 124 "POST /meiduo_admin/users/ HTTP/1.1" 500 19880
+ERROR 2019-11-07 04:25:44,664 exception 135 Internal Server Error: /meiduo_admin/users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/generics.py", line 242, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/users.py", line 35, in create
+    user = super().create(**validated_data)
+TypeError: create() got an unexpected keyword argument 'mobile'
+ERROR 2019-11-07 04:25:44,690 basehttp 124 "POST /meiduo_admin/users/ HTTP/1.1" 500 19880
+ERROR 2019-11-07 04:25:44,934 exception 135 Internal Server Error: /meiduo_admin/users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/generics.py", line 242, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/users.py", line 35, in create
+    user = super().create(**validated_data)
+TypeError: create() got an unexpected keyword argument 'mobile'
+ERROR 2019-11-07 04:25:44,963 basehttp 124 "POST /meiduo_admin/users/ HTTP/1.1" 500 19880
+ERROR 2019-11-07 04:25:45,039 exception 135 Internal Server Error: /meiduo_admin/users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/generics.py", line 242, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/users.py", line 35, in create
+    user = super().create(**validated_data)
+TypeError: create() got an unexpected keyword argument 'mobile'
+ERROR 2019-11-07 04:25:45,061 basehttp 124 "POST /meiduo_admin/users/ HTTP/1.1" 500 19880
+ERROR 2019-11-07 04:25:45,221 exception 135 Internal Server Error: /meiduo_admin/users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/generics.py", line 242, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/users.py", line 35, in create
+    user = super().create(**validated_data)
+TypeError: create() got an unexpected keyword argument 'mobile'
+ERROR 2019-11-07 04:25:45,256 basehttp 124 "POST /meiduo_admin/users/ HTTP/1.1" 500 19880
+ERROR 2019-11-07 04:27:48,386 exception 135 Internal Server Error: /meiduo_admin/users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/generics.py", line 242, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/users.py", line 36, in create
+    user = super().create(**validated_data)
+TypeError: create() got an unexpected keyword argument 'username'
+ERROR 2019-11-07 04:27:48,420 basehttp 124 "POST /meiduo_admin/users/ HTTP/1.1" 500 19884
+ERROR 2019-11-07 04:27:48,543 exception 135 Internal Server Error: /meiduo_admin/users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/generics.py", line 242, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/users.py", line 36, in create
+    user = super().create(**validated_data)
+TypeError: create() got an unexpected keyword argument 'username'
+ERROR 2019-11-07 04:27:48,566 basehttp 124 "POST /meiduo_admin/users/ HTTP/1.1" 500 19884
+ERROR 2019-11-07 04:27:50,052 exception 135 Internal Server Error: /meiduo_admin/users/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/generics.py", line 242, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/users.py", line 36, in create
+    user = super().create(**validated_data)
+TypeError: create() got an unexpected keyword argument 'username'
+ERROR 2019-11-07 04:27:50,082 basehttp 124 "POST /meiduo_admin/users/ HTTP/1.1" 500 19884
+INFO 2019-11-07 04:29:46,344 basehttp 124 "POST /meiduo_admin/users/ HTTP/1.1" 201 73
+INFO 2019-11-07 04:29:46,373 basehttp 124 "OPTIONS /meiduo_admin/users/?page=1&pagesize=10&keyword=chenjj HTTP/1.1" 200 0
+INFO 2019-11-07 04:29:46,529 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword=chenjj HTTP/1.1" 200 128
+INFO 2019-11-07 04:30:00,079 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 304
+INFO 2019-11-07 06:49:14,871 basehttp 124 "OPTIONS /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-11-07 06:49:15,084 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 304
+INFO 2019-11-07 06:49:26,537 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-11-07 06:49:26,556 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 06:49:26,560 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-11-07 06:49:26,569 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 06:49:26,573 basehttp 124 "OPTIONS /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+WARNING 2019-11-07 06:49:26,689 base 152 Not Found: /meiduo_admin/skus/categories/
+WARNING 2019-11-07 06:49:26,735 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 06:49:26,736 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 10418
+WARNING 2019-11-07 06:49:26,741 base 152 Not Found: /meiduo_admin/skus/
+WARNING 2019-11-07 06:49:26,743 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 10427
+WARNING 2019-11-07 06:49:26,744 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 404 10430
+WARNING 2019-11-07 06:49:26,832 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 06:49:26,850 base 152 Not Found: /meiduo_admin/skus/categories/
+WARNING 2019-11-07 06:49:26,851 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 10418
+WARNING 2019-11-07 06:49:26,852 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 10427
+INFO 2019-11-07 06:49:28,825 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 304
+INFO 2019-11-07 06:49:36,700 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-11-07 06:49:36,768 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 06:49:36,775 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 10418
+WARNING 2019-11-07 06:49:36,789 base 152 Not Found: /meiduo_admin/goods/specs/
+WARNING 2019-11-07 06:49:36,791 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 404 10438
+WARNING 2019-11-07 06:49:36,848 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 06:49:36,849 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 10418
+INFO 2019-11-07 06:49:41,239 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/?page=2&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-11-07 06:49:41,297 base 152 Not Found: /meiduo_admin/goods/specs/
+WARNING 2019-11-07 06:49:41,298 basehttp 124 "GET /meiduo_admin/goods/specs/?page=2&pagesize=10 HTTP/1.1" 404 10438
+WARNING 2019-11-07 06:49:42,422 base 152 Not Found: /meiduo_admin/goods/specs/
+WARNING 2019-11-07 06:49:42,425 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 404 10438
+INFO 2019-11-07 06:55:42,208 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 06:55:42,212 basehttp 124 "OPTIONS /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-07 06:55:42,245 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+WARNING 2019-11-07 06:55:42,522 base 152 Not Found: /meiduo_admin/specs/options/
+WARNING 2019-11-07 06:55:42,525 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 404 11717
+WARNING 2019-11-07 06:55:42,578 base 152 Not Found: /meiduo_admin/goods/specs/simple/
+WARNING 2019-11-07 06:55:42,590 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 404 23
+WARNING 2019-11-07 06:55:42,653 base 152 Not Found: /meiduo_admin/goods/specs/simple/
+WARNING 2019-11-07 06:55:42,655 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 404 23
+WARNING 2019-11-07 06:55:45,896 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 06:55:45,903 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+WARNING 2019-11-07 06:55:45,987 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 06:55:45,990 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+ERROR 2019-11-07 06:55:46,093 exception 135 Internal Server Error: /meiduo_admin/goods/specs/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 757, in data
+    ret = super().data
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 511, in to_representation
+    for field in fields:
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 372, in _readable_fields
+    for field in self.fields.values():
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 360, in fields
+    for key, value in self.get_fields().items():
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 999, in get_fields
+    serializer_class=self.__class__.__name__
+AssertionError: Class SPUSpecificationSerializer missing "Meta" attribute
+ERROR 2019-11-07 06:55:46,411 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 500 21602
+WARNING 2019-11-07 06:55:47,335 base 152 Not Found: /meiduo_admin/specs/options/
+WARNING 2019-11-07 06:55:47,337 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 404 11717
+WARNING 2019-11-07 06:55:47,355 base 152 Not Found: /meiduo_admin/goods/specs/simple/
+WARNING 2019-11-07 06:55:47,356 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 404 23
+WARNING 2019-11-07 06:55:47,398 base 152 Not Found: /meiduo_admin/goods/specs/simple/
+WARNING 2019-11-07 06:55:47,400 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 404 23
+WARNING 2019-11-07 06:55:53,793 base 152 Not Found: /meiduo_admin/goods/specs/simple/
+WARNING 2019-11-07 06:55:53,808 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 404 23
+WARNING 2019-11-07 06:55:53,807 base 152 Not Found: /meiduo_admin/specs/options/
+WARNING 2019-11-07 06:55:53,813 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 404 11717
+WARNING 2019-11-07 06:55:53,867 base 152 Not Found: /meiduo_admin/goods/specs/simple/
+WARNING 2019-11-07 06:55:53,869 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 404 23
+WARNING 2019-11-07 06:55:55,765 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 06:55:55,766 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+ERROR 2019-11-07 06:55:55,813 exception 135 Internal Server Error: /meiduo_admin/goods/specs/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 757, in data
+    ret = super().data
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 511, in to_representation
+    for field in fields:
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 372, in _readable_fields
+    for field in self.fields.values():
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 360, in fields
+    for key, value in self.get_fields().items():
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 999, in get_fields
+    serializer_class=self.__class__.__name__
+AssertionError: Class SPUSpecificationSerializer missing "Meta" attribute
+WARNING 2019-11-07 06:55:55,904 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 06:55:55,905 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+ERROR 2019-11-07 06:55:56,099 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 500 21603
+WARNING 2019-11-07 06:55:56,540 base 152 Not Found: /meiduo_admin/specs/options/
+WARNING 2019-11-07 06:55:56,541 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 404 11717
+WARNING 2019-11-07 06:55:56,589 base 152 Not Found: /meiduo_admin/goods/specs/simple/
+WARNING 2019-11-07 06:55:56,590 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 404 23
+WARNING 2019-11-07 06:55:56,628 base 152 Not Found: /meiduo_admin/goods/specs/simple/
+WARNING 2019-11-07 06:55:56,629 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 404 23
+WARNING 2019-11-07 06:56:05,947 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 06:56:05,949 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+WARNING 2019-11-07 06:56:05,960 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 06:56:05,964 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+ERROR 2019-11-07 06:56:05,969 exception 135 Internal Server Error: /meiduo_admin/goods/specs/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 757, in data
+    ret = super().data
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 675, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 511, in to_representation
+    for field in fields:
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 372, in _readable_fields
+    for field in self.fields.values():
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 360, in fields
+    for key, value in self.get_fields().items():
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 999, in get_fields
+    serializer_class=self.__class__.__name__
+AssertionError: Class SPUSpecificationSerializer missing "Meta" attribute
+ERROR 2019-11-07 06:56:06,007 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 500 20926
+WARNING 2019-11-07 06:56:37,114 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 06:56:37,124 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+WARNING 2019-11-07 06:56:37,215 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 06:56:37,220 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+INFO 2019-11-07 06:56:37,220 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 907
+WARNING 2019-11-07 06:56:50,709 base 152 Not Found: /meiduo_admin/specs/options/
+WARNING 2019-11-07 06:56:50,713 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 404 11717
+WARNING 2019-11-07 06:56:50,726 base 152 Not Found: /meiduo_admin/goods/specs/simple/
+WARNING 2019-11-07 06:56:50,726 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 404 23
+WARNING 2019-11-07 06:56:50,740 base 152 Not Found: /meiduo_admin/goods/specs/simple/
+WARNING 2019-11-07 06:56:50,741 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 404 23
+WARNING 2019-11-07 06:56:52,468 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 06:56:52,510 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+WARNING 2019-11-07 06:56:52,524 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 06:56:52,526 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+INFO 2019-11-07 06:56:52,536 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 907
+WARNING 2019-11-07 06:59:02,753 base 152 Not Found: /meiduo_admin/specs/options/
+WARNING 2019-11-07 06:59:02,757 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 404 11717
+WARNING 2019-11-07 06:59:02,784 base 152 Not Found: /meiduo_admin/goods/specs/simple/
+WARNING 2019-11-07 06:59:02,785 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 404 23
+WARNING 2019-11-07 06:59:02,806 base 152 Not Found: /meiduo_admin/goods/specs/simple/
+WARNING 2019-11-07 06:59:02,806 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 404 23
+INFO 2019-11-07 06:59:05,030 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2019-11-07 06:59:05,032 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-11-07 06:59:05,046 basehttp 124 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+WARNING 2019-11-07 06:59:05,059 base 152 Not Found: /meiduo_admin/goods/categories/
+INFO 2019-11-07 06:59:05,059 basehttp 124 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2019-11-07 06:59:05,059 basehttp 124 "OPTIONS /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-11-07 06:59:05,060 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 11703
+WARNING 2019-11-07 06:59:05,082 base 152 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2019-11-07 06:59:05,088 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 11712
+WARNING 2019-11-07 06:59:05,087 base 152 Not Found: /meiduo_admin/goods/channels/
+WARNING 2019-11-07 06:59:05,089 basehttp 124 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 404 11720
+WARNING 2019-11-07 06:59:05,107 base 152 Not Found: /meiduo_admin/goods/categories/
+WARNING 2019-11-07 06:59:05,111 base 152 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2019-11-07 06:59:05,113 basehttp 124 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 11703
+WARNING 2019-11-07 06:59:05,113 basehttp 124 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 11712
+WARNING 2019-11-07 06:59:05,973 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 06:59:05,978 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+WARNING 2019-11-07 06:59:05,997 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 06:59:05,998 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+INFO 2019-11-07 06:59:06,022 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 907
+INFO 2019-11-07 06:59:06,578 basehttp 124 "OPTIONS /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-11-07 06:59:06,601 base 152 Not Found: /meiduo_admin/goods/
+WARNING 2019-11-07 06:59:06,601 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 404 11693
+WARNING 2019-11-07 06:59:10,277 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 06:59:10,277 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+WARNING 2019-11-07 06:59:10,318 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 06:59:10,318 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+INFO 2019-11-07 06:59:10,354 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 907
+INFO 2019-11-07 06:59:22,020 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/4/ HTTP/1.1" 200 0
+ERROR 2019-11-07 06:59:22,179 exception 135 Internal Server Error: /meiduo_admin/goods/specs/4/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 91, in destroy
+    self.perform_destroy(instance)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 95, in perform_destroy
+    instance.delete()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 973, in delete
+    collector.collect([self], keep_parents=keep_parents)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/deletion.py", line 223, in collect
+    field.remote_field.on_delete(self, field, sub_objs, self.using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/deletion.py", line 17, in CASCADE
+    source_attr=field.name, nullable=field.null)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/deletion.py", line 223, in collect
+    field.remote_field.on_delete(self, field, sub_objs, self.using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/deletion.py", line 28, in PROTECT
+    sub_objs
+django.db.models.deletion.ProtectedError: ("Cannot delete some instances of model 'SpecificationOption' because they are referenced through a protected foreign key: 'SKUSpecification.option'", <QuerySet [<SKUSpecification: 3: Apple iPhone 8 Plus (A1864) 64GB 金色 移动联通电信4G手机: 颜色 - 金色>, <SKUSpecification: 4: Apple iPhone 8 Plus (A1864) 256GB 金色 移动联通电信4G手机: 颜色 - 金色>, <SKUSpecification: 5: Apple iPhone 8 Plus (A1864) 64GB 深空灰色 移动联通电信4G手机: 颜色 - 深空灰>, <SKUSpecification: 6: Apple iPhone 8 Plus (A1864) 256GB 深空灰色 移动联通电信4G手机: 颜色 - 深空灰>, <SKUSpecification: 7: Apple iPhone 8 Plus (A1864) 64GB 银色 移动联通电信4G手机: 颜色 - 银色>, <SKUSpecification: 8: Apple iPhone 8 Plus (A1864) 256GB 银色 移动联通电信4G手机: 颜色 - 银色>]>)
+ERROR 2019-11-07 06:59:22,438 basehttp 124 "DELETE /meiduo_admin/goods/specs/4/ HTTP/1.1" 500 21886
+INFO 2019-11-07 06:59:31,714 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 06:59:31,724 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+WARNING 2019-11-07 06:59:31,809 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 06:59:31,819 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+INFO 2019-11-07 06:59:31,824 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 907
+WARNING 2019-11-07 06:59:31,903 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 06:59:31,906 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+INFO 2019-11-07 07:13:09,871 basehttp 124 "OPTIONS /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-11-07 07:13:09,947 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 304
+INFO 2019-11-07 07:21:50,284 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 07:21:50,286 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 07:21:50,289 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-11-07 07:21:50,306 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 07:21:50,323 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+WARNING 2019-11-07 07:21:50,331 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 07:21:50,332 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+INFO 2019-11-07 07:21:50,417 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 907
+WARNING 2019-11-07 07:26:15,415 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 07:26:15,423 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+WARNING 2019-11-07 07:26:15,442 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 07:26:15,456 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+INFO 2019-11-07 07:26:15,541 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1154
+INFO 2019-11-07 08:10:10,820 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/ HTTP/1.1" 200 0
+WARNING 2019-11-07 08:10:11,057 basehttp 124 "POST /meiduo_admin/goods/specs/ HTTP/1.1" 400 43
+INFO 2019-11-07 08:10:32,679 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 08:10:32,681 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 08:10:32,686 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-11-07 08:10:32,891 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 08:10:32,912 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+WARNING 2019-11-07 08:10:32,994 base 152 Not Found: /meiduo_admin/goods/simple/
+WARNING 2019-11-07 08:10:33,009 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 404 11691
+INFO 2019-11-07 08:10:33,015 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1154
+INFO 2019-11-07 08:12:37,473 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-07 08:12:37,537 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-07 08:12:37,584 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1154
+INFO 2019-11-07 08:54:24,407 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 08:54:24,408 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 08:54:24,410 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-07 08:54:25,087 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-07 08:54:25,093 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1154
+INFO 2019-11-07 08:54:25,154 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-07 08:54:34,305 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 08:54:34,315 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 08:54:34,327 basehttp 124 "OPTIONS /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-11-07 08:54:34,421 base 152 Not Found: /meiduo_admin/specs/options/
+WARNING 2019-11-07 08:54:34,434 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 404 11893
+WARNING 2019-11-07 08:54:34,468 base 152 Not Found: /meiduo_admin/goods/specs/simple/
+WARNING 2019-11-07 08:54:34,468 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 404 23
+WARNING 2019-11-07 08:54:34,532 base 152 Not Found: /meiduo_admin/goods/specs/simple/
+WARNING 2019-11-07 08:54:34,533 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 404 23
+INFO 2019-11-07 08:59:55,811 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-07 08:59:55,884 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1154
+INFO 2019-11-07 08:59:55,942 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+WARNING 2019-11-07 08:59:58,586 base 152 Not Found: /meiduo_admin/goods/specs/simple/
+WARNING 2019-11-07 08:59:58,606 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 404 23
+WARNING 2019-11-07 08:59:58,664 base 152 Not Found: /meiduo_admin/goods/specs/simple/
+WARNING 2019-11-07 08:59:58,666 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 404 23
+INFO 2019-11-07 08:59:58,695 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 1501
+INFO 2019-11-07 09:38:01,616 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 09:38:01,618 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 09:38:01,633 basehttp 124 "OPTIONS /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-07 09:38:02,319 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 854
+INFO 2019-11-07 09:38:02,440 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 854
+INFO 2019-11-07 09:38:02,456 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 1501
+INFO 2019-11-07 10:14:44,911 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-11-07 10:14:44,913 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 10:14:44,914 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-11-07 10:14:44,915 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 10:14:44,916 basehttp 124 "OPTIONS /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+WARNING 2019-11-07 10:14:45,067 base 152 Not Found: /meiduo_admin/skus/categories/
+WARNING 2019-11-07 10:14:45,076 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 12956
+WARNING 2019-11-07 10:14:45,106 base 152 Not Found: /meiduo_admin/skus/
+WARNING 2019-11-07 10:14:45,123 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 404 12959
+WARNING 2019-11-07 10:14:45,174 base 152 Not Found: /meiduo_admin/skus/categories/
+WARNING 2019-11-07 10:14:45,175 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 12956
+INFO 2019-11-07 10:14:45,184 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-07 10:14:45,264 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-07 10:14:46,159 basehttp 124 "OPTIONS /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-11-07 10:14:46,205 base 152 Not Found: /meiduo_admin/goods/
+WARNING 2019-11-07 10:14:46,206 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 404 12949
+INFO 2019-11-07 10:14:51,164 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-07 10:14:51,250 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-07 10:14:51,294 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-07 10:14:51,311 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1154
+INFO 2019-11-07 10:14:53,121 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 10:14:53,123 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 10:14:53,124 basehttp 124 "OPTIONS /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-07 10:14:53,193 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 854
+INFO 2019-11-07 10:14:53,245 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 854
+INFO 2019-11-07 10:14:53,343 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 1501
+WARNING 2019-11-07 10:14:55,056 base 152 Not Found: /meiduo_admin/goods/
+WARNING 2019-11-07 10:14:55,063 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 404 12949
+WARNING 2019-11-07 10:14:56,002 base 152 Not Found: /meiduo_admin/skus/categories/
+WARNING 2019-11-07 10:14:56,005 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 12956
+WARNING 2019-11-07 10:14:56,033 base 152 Not Found: /meiduo_admin/skus/
+WARNING 2019-11-07 10:14:56,039 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 404 12959
+WARNING 2019-11-07 10:14:56,037 base 152 Not Found: /meiduo_admin/skus/categories/
+WARNING 2019-11-07 10:14:56,041 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 12956
+INFO 2019-11-07 10:14:56,066 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-07 10:14:56,142 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+WARNING 2019-11-07 10:14:57,368 base 152 Not Found: /meiduo_admin/goods/
+WARNING 2019-11-07 10:14:57,369 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 404 12949
+WARNING 2019-11-07 10:14:58,053 base 152 Not Found: /meiduo_admin/skus/categories/
+WARNING 2019-11-07 10:14:58,062 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 12956
+WARNING 2019-11-07 10:14:58,061 base 152 Not Found: /meiduo_admin/skus/
+WARNING 2019-11-07 10:14:58,123 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 404 12959
+INFO 2019-11-07 10:14:58,132 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+WARNING 2019-11-07 10:14:58,192 base 152 Not Found: /meiduo_admin/skus/categories/
+WARNING 2019-11-07 10:14:58,207 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 12956
+INFO 2019-11-07 10:14:58,239 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+WARNING 2019-11-07 10:14:59,029 base 152 Not Found: /meiduo_admin/goods/
+WARNING 2019-11-07 10:14:59,029 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 404 12949
+WARNING 2019-11-07 10:14:59,575 base 152 Not Found: /meiduo_admin/skus/categories/
+WARNING 2019-11-07 10:14:59,582 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 12956
+WARNING 2019-11-07 10:14:59,621 base 152 Not Found: /meiduo_admin/skus/
+WARNING 2019-11-07 10:14:59,621 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 404 12959
+WARNING 2019-11-07 10:14:59,664 base 152 Not Found: /meiduo_admin/skus/categories/
+INFO 2019-11-07 10:14:59,666 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+WARNING 2019-11-07 10:14:59,668 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 12956
+INFO 2019-11-07 10:14:59,820 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-07 11:29:35,638 basehttp 124 "GET /register/ HTTP/1.1" 200 4128
+INFO 2019-11-07 11:29:35,714 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-11-07 11:29:35,742 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-11-07 11:29:35,743 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-11-07 11:29:35,749 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-11-07 11:29:35,751 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-11-07 11:29:35,794 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-11-07 11:29:35,794 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-11-07 11:29:35,797 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 9954
+INFO 2019-11-07 11:29:35,981 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-11-07 11:29:35,982 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2019-11-07 11:29:35,991 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2019-11-07 11:29:36,439 basehttp 124 "GET /image_codes/a497b7c3-c62c-424a-876a-eb32dd403b50/ HTTP/1.1" 200 3359
+WARNING 2019-11-07 11:29:36,469 base 152 Not Found: /favicon.ico
+WARNING 2019-11-07 11:29:36,469 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 9010
+INFO 2019-11-07 11:29:38,007 basehttp 124 "GET /login/ HTTP/1.1" 200 3197
+INFO 2019-11-07 11:29:38,041 basehttp 124 "GET /static/js/login.js HTTP/1.1" 200 1759
+INFO 2019-11-07 11:29:38,069 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 200 8466
+INFO 2019-11-07 11:29:38,169 basehttp 124 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2019-11-07 11:29:38,235 basehttp 124 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+WARNING 2019-11-07 11:29:40,249 basehttp 124 "POST /login/ HTTP/1.1" 400 24
+WARNING 2019-11-07 11:30:22,970 basehttp 124 "POST /login/ HTTP/1.1" 400 24
+WARNING 2019-11-07 11:30:29,381 basehttp 124 "POST /login/ HTTP/1.1" 400 24
+INFO 2019-11-07 11:31:53,248 basehttp 124 "GET /login/ HTTP/1.1" 200 3197
+INFO 2019-11-07 11:31:53,321 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-11-07 11:31:53,324 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-11-07 11:31:53,333 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-11-07 11:31:53,338 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-11-07 11:31:53,349 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-11-07 11:31:53,357 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-11-07 11:31:53,384 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2019-11-07 11:31:53,397 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-11-07 11:33:29,283 basehttp 124 "GET /login/ HTTP/1.1" 200 3197
+INFO 2019-11-07 11:33:29,318 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-11-07 11:33:29,320 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-11-07 11:33:29,331 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-11-07 11:33:29,337 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-11-07 11:33:29,338 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-11-07 11:33:29,340 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-11-07 11:33:29,370 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2019-11-07 11:33:29,382 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-11-07 11:33:44,640 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-11-07 11:33:46,966 basehttp 124 "GET / HTTP/1.1" 200 92067
+INFO 2019-11-07 11:33:47,148 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+WARNING 2019-11-07 11:33:47,743 base 152 Not Found: /group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862
+WARNING 2019-11-07 11:33:47,780 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:47,782 base 152 Not Found: /group1/M00/00/01/CtM3BVrMe2KAGXDKAAAVASh8SzY6938726
+WARNING 2019-11-07 11:33:47,782 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMe2KAGXDKAAAVASh8SzY6938726 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:47,934 base 152 Not Found: /group1/M00/00/01/CtM3BVrMgQuAM4-sAABPvjDmrZE7647305
+WARNING 2019-11-07 11:33:47,943 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMgQuAM4-sAABPvjDmrZE7647305 HTTP/1.1" 404 9130
+INFO 2019-11-07 11:33:48,002 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2019-11-07 11:33:48,078 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1388
+WARNING 2019-11-07 11:33:48,089 base 152 Not Found: /group1/M00/00/01/CtM3BVrMgWyAH_f1AAAQuFJkR2o1196559
+WARNING 2019-11-07 11:33:48,091 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMgWyAH_f1AAAQuFJkR2o1196559 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:48,092 base 152 Not Found: /group1/M00/00/01/CtM3BVrMgX2AeXiGAABuWTn7Wr09762364
+WARNING 2019-11-07 11:33:48,105 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMgX2AeXiGAABuWTn7Wr09762364 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:48,171 base 152 Not Found: /group1/M00/00/01/CtM3BVrMgbiARBnzAABbhp78Lqs6191821
+WARNING 2019-11-07 11:33:48,236 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMgbiARBnzAABbhp78Lqs6191821 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:48,373 base 152 Not Found: /group1/M00/00/01/CtM3BVrMgeuAYEocAABd3TzhhGw1571126
+WARNING 2019-11-07 11:33:48,406 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMgeuAYEocAABd3TzhhGw1571126 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:48,591 base 152 Not Found: /group1/M00/00/01/CtM3BVrMgkaAWyHAAABbrVH9a7o5762009
+WARNING 2019-11-07 11:33:48,613 base 152 Not Found: /group1/M00/00/01/CtM3BVrMgmyAB_1AAABoaAzPPW86045138
+INFO 2019-11-07 11:33:48,649 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2019-11-07 11:33:48,650 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMgkaAWyHAAABbrVH9a7o5762009 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:48,680 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMgmyAB_1AAABoaAzPPW86045138 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:48,716 base 152 Not Found: /group1/M00/00/01/CtM3BVrMgo6Aa3OTAAA82h3PXzw9976088
+WARNING 2019-11-07 11:33:48,763 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMgo6Aa3OTAAA82h3PXzw9976088 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:48,878 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhBeAaZ9OAABuZHjPsV88472096
+WARNING 2019-11-07 11:33:48,899 base 152 Not Found: /group1/M00/00/01/CtM3BVrMg_qACjBsAAActVXQUoc6433633
+WARNING 2019-11-07 11:33:48,956 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMg_qACjBsAAActVXQUoc6433633 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:48,935 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhBeAaZ9OAABuZHjPsV88472096 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:49,008 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhH6AAjD4AABS1vBu6x01229529
+WARNING 2019-11-07 11:33:49,066 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhH6AAjD4AABS1vBu6x01229529 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:49,085 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhFuAB5eZAAAaQIF-UNs3707070
+WARNING 2019-11-07 11:33:49,119 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhFuAB5eZAAAaQIF-UNs3707070 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:49,253 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhDWAEwgEAABPce7je4w1228836
+WARNING 2019-11-07 11:33:49,336 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhDWAEwgEAABPce7je4w1228836 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:49,345 base 152 Not Found: /group1/M00/00/01/CtM3BVrNsOuAQbJYAABoachTxTo8223966
+WARNING 2019-11-07 11:33:49,401 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNsOuAQbJYAABoachTxTo8223966 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:49,479 base 152 Not Found: /group1/M00/00/01/CtM3BVrNr0iAAbCEAABZEWPGxc48830214
+WARNING 2019-11-07 11:33:49,514 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNr0iAAbCEAABZEWPGxc48830214 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:49,549 base 152 Not Found: /group1/M00/00/01/CtM3BVrNr8KAD6b2AAByGLpNQV01684706
+WARNING 2019-11-07 11:33:49,574 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNr8KAD6b2AAByGLpNQV01684706 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:49,564 base 152 Not Found: /group1/M00/00/01/CtM3BVrNr2-AbNUxAABwpN-gR8E7784256
+WARNING 2019-11-07 11:33:49,634 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNr2-AbNUxAABwpN-gR8E7784256 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:49,673 base 152 Not Found: /group1/M00/00/01/CtM3BVrNr6iAWKHsAAAcWfJ6OD00441704
+WARNING 2019-11-07 11:33:49,897 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNr6iAWKHsAAAcWfJ6OD00441704 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:49,950 base 152 Not Found: /carts/simple/
+WARNING 2019-11-07 11:33:50,006 base 152 Not Found: /group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862
+WARNING 2019-11-07 11:33:50,041 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 9016
+WARNING 2019-11-07 11:33:50,086 base 152 Not Found: /group1/M00/00/01/CtM3BVrMe2KAGXDKAAAVASh8SzY6938726
+WARNING 2019-11-07 11:33:50,111 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:50,126 base 152 Not Found: /group1/M00/00/01/CtM3BVrMgQuAM4-sAABPvjDmrZE7647305
+WARNING 2019-11-07 11:33:50,127 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMe2KAGXDKAAAVASh8SzY6938726 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:50,175 base 152 Not Found: /group1/M00/00/02/CtM3BVrhyhmAehqbAAA3XtuXCto1322736
+WARNING 2019-11-07 11:33:50,234 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMgQuAM4-sAABPvjDmrZE7647305 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:50,244 basehttp 124 "GET /group1/M00/00/02/CtM3BVrhyhmAehqbAAA3XtuXCto1322736 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:50,351 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhVCAFC8tAABonSNLGHA3584281
+WARNING 2019-11-07 11:33:50,353 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhRCAB5hsAAAQZye4aIM5257140
+WARNING 2019-11-07 11:33:50,383 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhVCAFC8tAABonSNLGHA3584281 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:50,466 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhRCAB5hsAAAQZye4aIM5257140 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:50,631 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhYyAOjMVAABU1kCuf_48013827
+WARNING 2019-11-07 11:33:50,657 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhYyAOjMVAABU1kCuf_48013827 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:50,677 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhW6Ac7QMAABd3TzhhGw0583536
+WARNING 2019-11-07 11:33:50,678 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhW6Ac7QMAABd3TzhhGw0583536 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:50,778 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhlSAP_27AAAW_YBdNEk8530912
+WARNING 2019-11-07 11:33:50,841 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhlSAP_27AAAW_YBdNEk8530912 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:50,806 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhaSAK3QLAAA7LKRGwzQ0348867
+WARNING 2019-11-07 11:33:50,843 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhaSAK3QLAAA7LKRGwzQ0348867 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:50,819 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhniADXZpAAALTWT-dfQ6160056
+WARNING 2019-11-07 11:33:50,845 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhniADXZpAAALTWT-dfQ6160056 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:50,804 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhjOAdMNbAAAR1JGA_cA5064317
+WARNING 2019-11-07 11:33:50,863 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhjOAdMNbAAAR1JGA_cA5064317 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:50,970 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhpiAV3lJAABiLlkgy2Y9166507
+WARNING 2019-11-07 11:33:51,005 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhveAOh8EAAA1ykQ-kAU6900992
+WARNING 2019-11-07 11:33:51,020 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhpiAV3lJAABiLlkgy2Y9166507 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:51,049 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhveAOh8EAAA1ykQ-kAU6900992 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:51,099 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhyuAEf95AABFDj_owsg4241256
+WARNING 2019-11-07 11:33:51,181 base 152 Not Found: /group1/M00/00/01/CtM3BVrMh0qAavITAABOVXYg3SI5232882
+WARNING 2019-11-07 11:33:51,203 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhyuAEf95AABFDj_owsg4241256 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:51,249 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMh0qAavITAABOVXYg3SI5232882 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:51,338 base 152 Not Found: /group1/M00/00/01/CtM3BVrNsA2AQUMbAAAbb_vBV6I1599925
+WARNING 2019-11-07 11:33:51,371 base 152 Not Found: /group1/M00/00/01/CtM3BVrMh4eAWdF2AAA-Fkkc5rM1921911
+WARNING 2019-11-07 11:33:51,390 base 152 Not Found: /group1/M00/00/01/CtM3BVrMh62AUlDTAAA-SfqPszY5890026
+WARNING 2019-11-07 11:33:51,422 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMh62AUlDTAAA-SfqPszY5890026 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:51,430 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMh4eAWdF2AAA-Fkkc5rM1921911 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:51,447 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNsA2AQUMbAAAbb_vBV6I1599925 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:51,529 base 152 Not Found: /group1/M00/00/01/CtM3BVrNsEGAZTfyAAAasplERbc8856337
+WARNING 2019-11-07 11:33:51,563 base 152 Not Found: /group1/M00/00/01/CtM3BVrNsCuAUvllAAAOkY17G984349519
+WARNING 2019-11-07 11:33:51,609 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNsEGAZTfyAAAasplERbc8856337 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:51,628 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNsCuAUvllAAAOkY17G984349519 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:51,633 base 152 Not Found: /group1/M00/00/01/CtM3BVrNsGCAeDZeAABtIYY5-s41601603
+WARNING 2019-11-07 11:33:51,729 base 152 Not Found: /group1/M00/00/01/CtM3BVrNsHyANXdyAABeDo_Qzeg1095047
+WARNING 2019-11-07 11:33:51,739 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNsGCAeDZeAABtIYY5-s41601603 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:51,819 base 152 Not Found: /group1/M00/00/01/CtM3BVrMisuAJnyWAABYJxXfN8w9822011
+WARNING 2019-11-07 11:33:51,867 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMisuAJnyWAABYJxXfN8w9822011 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:51,840 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNsHyANXdyAABeDo_Qzeg1095047 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:51,896 base 152 Not Found: /group1/M00/00/01/CtM3BVrMivSAUTWcAAANpJ-t9xg5938130
+WARNING 2019-11-07 11:33:51,903 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMivSAUTWcAAANpJ-t9xg5938130 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:51,949 base 152 Not Found: /group1/M00/00/01/CtM3BVrNrY-AdBacAAA7DYB8sjU0120233
+WARNING 2019-11-07 11:33:51,996 base 152 Not Found: /group1/M00/00/01/CtM3BVrNrd2AbRH-AAALOATUqqM8030242
+WARNING 2019-11-07 11:33:52,018 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNrd2AbRH-AAALOATUqqM8030242 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:52,025 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNrY-AdBacAAA7DYB8sjU0120233 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:52,025 base 152 Not Found: /group1/M00/00/01/CtM3BVrNrf-AJ1ZjAAB_vAApFkw8201014
+WARNING 2019-11-07 11:33:52,050 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNrf-AJ1ZjAAB_vAApFkw8201014 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:52,124 base 152 Not Found: /group1/M00/00/01/CtM3BVrNrkOAYXcbAABQocGJtes4517631
+WARNING 2019-11-07 11:33:52,167 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNrkOAYXcbAABQocGJtes4517631 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:52,305 base 152 Not Found: /group1/M00/00/01/CtM3BVrNrmeAPQkiAAAKCg08y3w4028142
+WARNING 2019-11-07 11:33:52,324 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNrmeAPQkiAAAKCg08y3w4028142 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:52,411 base 152 Not Found: /group1/M00/00/01/CtM3BVrNroeAUxHkAAAKhSBwnSk3723835
+WARNING 2019-11-07 11:33:52,463 base 152 Not Found: /group1/M00/00/01/CtM3BVrNrs2AMHPbAABMxVYJeMo0602527
+WARNING 2019-11-07 11:33:52,485 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNroeAUxHkAAAKhSBwnSk3723835 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:52,507 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNrs2AMHPbAABMxVYJeMo0602527 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:52,585 base 152 Not Found: /group1/M00/00/01/CtM3BVrNrq-AbFajAABb8Hp05302964728
+WARNING 2019-11-07 11:33:52,627 base 152 Not Found: /group1/M00/00/01/CtM3BVrNsbqAbi4CAABYmW4pmPA1782942
+WARNING 2019-11-07 11:33:52,629 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNsbqAbi4CAABYmW4pmPA1782942 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:52,741 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNrq-AbFajAABb8Hp05302964728 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:52,824 base 152 Not Found: /group1/M00/00/01/CtM3BVrNszaAMu2PAACwnbap8zI9797082
+WARNING 2019-11-07 11:33:52,840 base 152 Not Found: /group1/M00/00/01/CtM3BVrNsuuAQo25AAAmP_AGNMA9808303
+WARNING 2019-11-07 11:33:52,898 base 152 Not Found: /group1/M00/00/01/CtM3BVrNsxaAeU4HAAAkQDJCGSY6809195
+WARNING 2019-11-07 11:33:52,931 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNsuuAQo25AAAmP_AGNMA9808303 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:52,956 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNsxaAeU4HAAAkQDJCGSY6809195 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:53,009 base 152 Not Found: /group1/M00/00/01/CtM3BVrNs4KAIlJKAAAQmKypd2c1901811
+WARNING 2019-11-07 11:33:53,023 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNszaAMu2PAACwnbap8zI9797082 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:53,032 base 152 Not Found: /group1/M00/00/01/CtM3BVrNs2SAf2DEAAAGl2-3v5k2172012
+WARNING 2019-11-07 11:33:53,040 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNs2SAf2DEAAAGl2-3v5k2172012 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:53,078 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNs4KAIlJKAAAQmKypd2c1901811 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:53,156 base 152 Not Found: /group1/M00/00/01/CtM3BVrNs6aAea7bAAAIoddXpoA5854653
+WARNING 2019-11-07 11:33:53,194 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNs6aAea7bAAAIoddXpoA5854653 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:53,222 base 152 Not Found: /group1/M00/00/01/CtM3BVrNs8WAZsplAAB-c4wo3kI9077289
+WARNING 2019-11-07 11:33:53,297 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtA6AFtbDAAAVJIjSdl43078544
+WARNING 2019-11-07 11:33:53,347 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtMWANuqTAACac0TCaxU2674435
+WARNING 2019-11-07 11:33:53,348 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNs8WAZsplAAB-c4wo3kI9077289 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:53,364 base 152 Not Found: /group1/M00/00/02/CtM3BVrNs-SAaLqBAAAPB44z-fw7327519
+WARNING 2019-11-07 11:33:53,379 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNs-SAaLqBAAAPB44z-fw7327519 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:53,380 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtA6AFtbDAAAVJIjSdl43078544 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:53,378 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtMWANuqTAACac0TCaxU2674435 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:53,374 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtDGAdlzlAAAZZRjOIrQ5323041
+WARNING 2019-11-07 11:33:53,437 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtDGAdlzlAAAZZRjOIrQ5323041 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:53,554 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtUGACPW-AAAWNwYc_Yg9317761
+WARNING 2019-11-07 11:33:53,561 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtUGACPW-AAAWNwYc_Yg9317761 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:53,564 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtRGAGUbMAACY-WS_oQg9101415
+WARNING 2019-11-07 11:33:53,543 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtOiAKex1AAAOZc14LLQ2319263
+WARNING 2019-11-07 11:33:53,638 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtOiAKex1AAAOZc14LLQ2319263 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:53,659 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtWKAUKPkAADhQEAcAgQ4155172
+WARNING 2019-11-07 11:33:53,687 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtWKAUKPkAADhQEAcAgQ4155172 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:53,687 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtRGAGUbMAACY-WS_oQg9101415 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:53,752 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtY2ABEOfAAAWaWuGKss3304555
+WARNING 2019-11-07 11:33:53,787 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtY2ABEOfAAAWaWuGKss3304555 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:53,870 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtamAdrqPAAAYsg3AvQ86108884
+WARNING 2019-11-07 11:33:53,871 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtamAdrqPAAAYsg3AvQ86108884 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:53,885 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtcOAYTH1AABVIz70wKU1556174
+WARNING 2019-11-07 11:33:53,887 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtcOAYTH1AABVIz70wKU1556174 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:53,957 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtf-AY0FGAAAZwGscZq42512400
+WARNING 2019-11-07 11:33:53,961 base 152 Not Found: /group1/M00/00/02/CtM3BVrNteKAZhHCAAAMrIL-ugE2533088
+WARNING 2019-11-07 11:33:53,963 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNteKAZhHCAAAMrIL-ugE2533088 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:33:53,969 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtf-AY0FGAAAZwGscZq42512400 HTTP/1.1" 404 9130
+INFO 2019-11-07 11:39:19,448 basehttp 124 "GET /login/ HTTP/1.1" 200 3197
+INFO 2019-11-07 11:39:19,483 basehttp 124 "GET /static/css/main.css HTTP/1.1" 304 0
+INFO 2019-11-07 11:39:19,487 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO 2019-11-07 11:39:19,491 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2019-11-07 11:39:19,492 basehttp 124 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2019-11-07 11:39:19,540 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2019-11-07 11:39:19,576 basehttp 124 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2019-11-07 11:39:19,594 basehttp 124 "GET /static/images/logo02.png HTTP/1.1" 304 0
+INFO 2019-11-07 11:39:19,595 basehttp 124 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2019-11-07 11:39:27,198 basehttp 124 "POST /login/ HTTP/1.1" 302 0
+INFO 2019-11-07 11:39:29,325 basehttp 124 "GET / HTTP/1.1" 200 92067
+WARNING 2019-11-07 11:39:29,943 base 152 Not Found: /group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862
+WARNING 2019-11-07 11:39:29,945 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMexWAfodJAAAhg8MeEWU8364862 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:29,930 base 152 Not Found: /group1/M00/00/01/CtM3BVrMe2KAGXDKAAAVASh8SzY6938726
+WARNING 2019-11-07 11:39:29,991 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMe2KAGXDKAAAVASh8SzY6938726 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:30,226 base 152 Not Found: /group1/M00/00/01/CtM3BVrMgQuAM4-sAABPvjDmrZE7647305
+WARNING 2019-11-07 11:39:30,284 base 152 Not Found: /group1/M00/00/01/CtM3BVrMgbiARBnzAABbhp78Lqs6191821
+WARNING 2019-11-07 11:39:30,304 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMgbiARBnzAABbhp78Lqs6191821 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:30,345 base 152 Not Found: /group1/M00/00/01/CtM3BVrMgeuAYEocAABd3TzhhGw1571126
+WARNING 2019-11-07 11:39:30,371 base 152 Not Found: /group1/M00/00/01/CtM3BVrMgWyAH_f1AAAQuFJkR2o1196559
+WARNING 2019-11-07 11:39:30,372 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMgeuAYEocAABd3TzhhGw1571126 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:30,373 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMgQuAM4-sAABPvjDmrZE7647305 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:30,359 base 152 Not Found: /group1/M00/00/01/CtM3BVrMgX2AeXiGAABuWTn7Wr09762364
+WARNING 2019-11-07 11:39:30,437 base 152 Not Found: /group1/M00/00/01/CtM3BVrMgkaAWyHAAABbrVH9a7o5762009
+WARNING 2019-11-07 11:39:30,447 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMgWyAH_f1AAAQuFJkR2o1196559 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:30,479 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMgX2AeXiGAABuWTn7Wr09762364 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:30,520 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMgkaAWyHAAABbrVH9a7o5762009 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:30,683 base 152 Not Found: /carts/simple/
+WARNING 2019-11-07 11:39:30,740 base 152 Not Found: /group1/M00/00/01/CtM3BVrMgmyAB_1AAABoaAzPPW86045138
+WARNING 2019-11-07 11:39:30,759 base 152 Not Found: /group1/M00/00/01/CtM3BVrMgo6Aa3OTAAA82h3PXzw9976088
+WARNING 2019-11-07 11:39:30,772 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMgo6Aa3OTAAA82h3PXzw9976088 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:30,773 basehttp 124 "GET /carts/simple/ HTTP/1.1" 404 9016
+WARNING 2019-11-07 11:39:30,803 base 152 Not Found: /group1/M00/00/01/CtM3BVrNsOuAQbJYAABoachTxTo8223966
+WARNING 2019-11-07 11:39:30,813 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMgmyAB_1AAABoaAzPPW86045138 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:30,837 base 152 Not Found: /group1/M00/00/01/CtM3BVrNr0iAAbCEAABZEWPGxc48830214
+WARNING 2019-11-07 11:39:30,881 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNsOuAQbJYAABoachTxTo8223966 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:30,991 base 152 Not Found: /group1/M00/00/01/CtM3BVrNr2-AbNUxAABwpN-gR8E7784256
+WARNING 2019-11-07 11:39:31,006 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNr0iAAbCEAABZEWPGxc48830214 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:31,038 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNr2-AbNUxAABwpN-gR8E7784256 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:31,109 base 152 Not Found: /group1/M00/00/01/CtM3BVrNr6iAWKHsAAAcWfJ6OD00441704
+WARNING 2019-11-07 11:39:31,132 base 152 Not Found: /group1/M00/00/01/CtM3BVrNr8KAD6b2AAByGLpNQV01684706
+WARNING 2019-11-07 11:39:31,176 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNr6iAWKHsAAAcWfJ6OD00441704 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:31,204 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNr8KAD6b2AAByGLpNQV01684706 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:31,234 base 152 Not Found: /group1/M00/00/01/CtM3BVrMg_qACjBsAAActVXQUoc6433633
+WARNING 2019-11-07 11:39:31,278 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMg_qACjBsAAActVXQUoc6433633 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:31,297 base 152 Not Found: /group1/M00/00/02/CtM3BVrhyhmAehqbAAA3XtuXCto1322736
+WARNING 2019-11-07 11:39:31,392 basehttp 124 "GET /group1/M00/00/02/CtM3BVrhyhmAehqbAAA3XtuXCto1322736 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:31,406 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhDWAEwgEAABPce7je4w1228836
+WARNING 2019-11-07 11:39:31,500 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhDWAEwgEAABPce7je4w1228836 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:31,515 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhBeAaZ9OAABuZHjPsV88472096
+WARNING 2019-11-07 11:39:31,545 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhFuAB5eZAAAaQIF-UNs3707070
+WARNING 2019-11-07 11:39:31,563 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhBeAaZ9OAABuZHjPsV88472096 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:31,619 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhFuAB5eZAAAaQIF-UNs3707070 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:31,621 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhVCAFC8tAABonSNLGHA3584281
+WARNING 2019-11-07 11:39:31,669 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhH6AAjD4AABS1vBu6x01229529
+WARNING 2019-11-07 11:39:31,686 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhRCAB5hsAAAQZye4aIM5257140
+WARNING 2019-11-07 11:39:31,791 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhYyAOjMVAABU1kCuf_48013827
+WARNING 2019-11-07 11:39:31,797 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhW6Ac7QMAABd3TzhhGw0583536
+WARNING 2019-11-07 11:39:31,797 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhH6AAjD4AABS1vBu6x01229529 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:31,785 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhRCAB5hsAAAQZye4aIM5257140 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:31,806 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhVCAFC8tAABonSNLGHA3584281 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:31,828 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhW6Ac7QMAABd3TzhhGw0583536 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:31,835 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhYyAOjMVAABU1kCuf_48013827 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:31,890 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhaSAK3QLAAA7LKRGwzQ0348867
+WARNING 2019-11-07 11:39:31,919 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhaSAK3QLAAA7LKRGwzQ0348867 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:32,037 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhlSAP_27AAAW_YBdNEk8530912
+WARNING 2019-11-07 11:39:32,113 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhlSAP_27AAAW_YBdNEk8530912 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:32,139 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhjOAdMNbAAAR1JGA_cA5064317
+WARNING 2019-11-07 11:39:32,144 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhniADXZpAAALTWT-dfQ6160056
+WARNING 2019-11-07 11:39:32,145 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhjOAdMNbAAAR1JGA_cA5064317 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:32,151 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhpiAV3lJAABiLlkgy2Y9166507
+WARNING 2019-11-07 11:39:32,195 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhniADXZpAAALTWT-dfQ6160056 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:32,215 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhpiAV3lJAABiLlkgy2Y9166507 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:32,332 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhyuAEf95AABFDj_owsg4241256
+WARNING 2019-11-07 11:39:32,395 base 152 Not Found: /group1/M00/00/01/CtM3BVrMh4eAWdF2AAA-Fkkc5rM1921911
+WARNING 2019-11-07 11:39:32,413 base 152 Not Found: /group1/M00/00/01/CtM3BVrMhveAOh8EAAA1ykQ-kAU6900992
+WARNING 2019-11-07 11:39:32,414 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMh4eAWdF2AAA-Fkkc5rM1921911 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:32,427 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhveAOh8EAAA1ykQ-kAU6900992 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:32,428 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMhyuAEf95AABFDj_owsg4241256 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:32,494 base 152 Not Found: /group1/M00/00/01/CtM3BVrMh62AUlDTAAA-SfqPszY5890026
+WARNING 2019-11-07 11:39:32,516 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMh62AUlDTAAA-SfqPszY5890026 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:32,522 base 152 Not Found: /group1/M00/00/01/CtM3BVrMh0qAavITAABOVXYg3SI5232882
+WARNING 2019-11-07 11:39:32,523 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMh0qAavITAABOVXYg3SI5232882 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:32,590 base 152 Not Found: /group1/M00/00/01/CtM3BVrNsA2AQUMbAAAbb_vBV6I1599925
+WARNING 2019-11-07 11:39:32,593 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNsA2AQUMbAAAbb_vBV6I1599925 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:32,654 base 152 Not Found: /group1/M00/00/01/CtM3BVrNsCuAUvllAAAOkY17G984349519
+WARNING 2019-11-07 11:39:32,676 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNsCuAUvllAAAOkY17G984349519 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:32,699 base 152 Not Found: /group1/M00/00/01/CtM3BVrNsEGAZTfyAAAasplERbc8856337
+WARNING 2019-11-07 11:39:32,735 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNsEGAZTfyAAAasplERbc8856337 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:32,895 base 152 Not Found: /group1/M00/00/01/CtM3BVrNsGCAeDZeAABtIYY5-s41601603
+WARNING 2019-11-07 11:39:32,952 base 152 Not Found: /group1/M00/00/01/CtM3BVrNsHyANXdyAABeDo_Qzeg1095047
+WARNING 2019-11-07 11:39:32,966 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNsHyANXdyAABeDo_Qzeg1095047 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:32,976 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNsGCAeDZeAABtIYY5-s41601603 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:33,048 base 152 Not Found: /group1/M00/00/01/CtM3BVrNrY-AdBacAAA7DYB8sjU0120233
+WARNING 2019-11-07 11:39:33,062 base 152 Not Found: /group1/M00/00/01/CtM3BVrMivSAUTWcAAANpJ-t9xg5938130
+WARNING 2019-11-07 11:39:33,069 base 152 Not Found: /group1/M00/00/01/CtM3BVrMisuAJnyWAABYJxXfN8w9822011
+WARNING 2019-11-07 11:39:33,083 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMisuAJnyWAABYJxXfN8w9822011 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:33,076 basehttp 124 "GET /group1/M00/00/01/CtM3BVrMivSAUTWcAAANpJ-t9xg5938130 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:33,085 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNrY-AdBacAAA7DYB8sjU0120233 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:33,117 base 152 Not Found: /group1/M00/00/01/CtM3BVrNrd2AbRH-AAALOATUqqM8030242
+WARNING 2019-11-07 11:39:33,152 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNrd2AbRH-AAALOATUqqM8030242 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:33,228 base 152 Not Found: /group1/M00/00/01/CtM3BVrNrf-AJ1ZjAAB_vAApFkw8201014
+WARNING 2019-11-07 11:39:33,255 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNrf-AJ1ZjAAB_vAApFkw8201014 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:33,320 base 152 Not Found: /group1/M00/00/01/CtM3BVrNrkOAYXcbAABQocGJtes4517631
+WARNING 2019-11-07 11:39:33,323 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNrkOAYXcbAABQocGJtes4517631 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:33,428 base 152 Not Found: /group1/M00/00/01/CtM3BVrNrmeAPQkiAAAKCg08y3w4028142
+WARNING 2019-11-07 11:39:33,443 base 152 Not Found: /group1/M00/00/01/CtM3BVrNroeAUxHkAAAKhSBwnSk3723835
+WARNING 2019-11-07 11:39:33,492 base 152 Not Found: /group1/M00/00/01/CtM3BVrNrq-AbFajAABb8Hp05302964728
+WARNING 2019-11-07 11:39:33,511 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNrmeAPQkiAAAKCg08y3w4028142 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:33,519 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNroeAUxHkAAAKhSBwnSk3723835 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:33,632 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNrq-AbFajAABb8Hp05302964728 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:33,649 base 152 Not Found: /group1/M00/00/01/CtM3BVrNrs2AMHPbAABMxVYJeMo0602527
+WARNING 2019-11-07 11:39:33,664 base 152 Not Found: /group1/M00/00/01/CtM3BVrNsuuAQo25AAAmP_AGNMA9808303
+WARNING 2019-11-07 11:39:33,683 base 152 Not Found: /group1/M00/00/01/CtM3BVrNsbqAbi4CAABYmW4pmPA1782942
+WARNING 2019-11-07 11:39:33,705 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNrs2AMHPbAABMxVYJeMo0602527 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:33,707 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNsuuAQo25AAAmP_AGNMA9808303 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:33,710 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNsbqAbi4CAABYmW4pmPA1782942 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:33,933 base 152 Not Found: /group1/M00/00/01/CtM3BVrNsxaAeU4HAAAkQDJCGSY6809195
+WARNING 2019-11-07 11:39:33,959 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNsxaAeU4HAAAkQDJCGSY6809195 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:33,943 base 152 Not Found: /group1/M00/00/01/CtM3BVrNszaAMu2PAACwnbap8zI9797082
+WARNING 2019-11-07 11:39:33,947 base 152 Not Found: /group1/M00/00/01/CtM3BVrNs2SAf2DEAAAGl2-3v5k2172012
+WARNING 2019-11-07 11:39:33,976 base 152 Not Found: /group1/M00/00/01/CtM3BVrNs4KAIlJKAAAQmKypd2c1901811
+WARNING 2019-11-07 11:39:34,030 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNs4KAIlJKAAAQmKypd2c1901811 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:34,000 base 152 Not Found: /group1/M00/00/01/CtM3BVrNs6aAea7bAAAIoddXpoA5854653
+WARNING 2019-11-07 11:39:34,032 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNs6aAea7bAAAIoddXpoA5854653 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:34,029 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNszaAMu2PAACwnbap8zI9797082 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:34,048 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNs2SAf2DEAAAGl2-3v5k2172012 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:34,065 base 152 Not Found: /group1/M00/00/01/CtM3BVrNs8WAZsplAAB-c4wo3kI9077289
+WARNING 2019-11-07 11:39:34,072 basehttp 124 "GET /group1/M00/00/01/CtM3BVrNs8WAZsplAAB-c4wo3kI9077289 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:34,511 base 152 Not Found: /group1/M00/00/02/CtM3BVrNs-SAaLqBAAAPB44z-fw7327519
+WARNING 2019-11-07 11:39:34,530 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNs-SAaLqBAAAPB44z-fw7327519 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:34,681 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtA6AFtbDAAAVJIjSdl43078544
+WARNING 2019-11-07 11:39:34,724 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtA6AFtbDAAAVJIjSdl43078544 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:34,761 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtDGAdlzlAAAZZRjOIrQ5323041
+WARNING 2019-11-07 11:39:34,787 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtDGAdlzlAAAZZRjOIrQ5323041 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:34,795 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtMWANuqTAACac0TCaxU2674435
+WARNING 2019-11-07 11:39:34,796 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtMWANuqTAACac0TCaxU2674435 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:34,876 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtOiAKex1AAAOZc14LLQ2319263
+WARNING 2019-11-07 11:39:34,919 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtOiAKex1AAAOZc14LLQ2319263 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:34,943 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtRGAGUbMAACY-WS_oQg9101415
+WARNING 2019-11-07 11:39:35,051 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtRGAGUbMAACY-WS_oQg9101415 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:35,106 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtUGACPW-AAAWNwYc_Yg9317761
+WARNING 2019-11-07 11:39:35,126 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtY2ABEOfAAAWaWuGKss3304555
+WARNING 2019-11-07 11:39:35,265 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtUGACPW-AAAWNwYc_Yg9317761 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:35,270 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtWKAUKPkAADhQEAcAgQ4155172
+WARNING 2019-11-07 11:39:35,276 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtcOAYTH1AABVIz70wKU1556174
+WARNING 2019-11-07 11:39:35,276 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtamAdrqPAAAYsg3AvQ86108884
+WARNING 2019-11-07 11:39:35,316 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtY2ABEOfAAAWaWuGKss3304555 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:35,316 base 152 Not Found: /group1/M00/00/02/CtM3BVrNteKAZhHCAAAMrIL-ugE2533088
+WARNING 2019-11-07 11:39:35,319 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtWKAUKPkAADhQEAcAgQ4155172 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:35,320 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtcOAYTH1AABVIz70wKU1556174 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:35,321 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtamAdrqPAAAYsg3AvQ86108884 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:35,359 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNteKAZhHCAAAMrIL-ugE2533088 HTTP/1.1" 404 9130
+WARNING 2019-11-07 11:39:35,397 base 152 Not Found: /group1/M00/00/02/CtM3BVrNtf-AY0FGAAAZwGscZq42512400
+WARNING 2019-11-07 11:39:35,398 basehttp 124 "GET /group1/M00/00/02/CtM3BVrNtf-AY0FGAAAZwGscZq42512400 HTTP/1.1" 404 9130
+INFO 2019-11-07 12:12:59,325 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+INFO 2019-11-07 12:12:59,375 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 239
+INFO 2019-11-07 12:12:59,593 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-11-07 12:12:59,596 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-11-07 12:12:59,597 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-11-07 12:12:59,598 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-11-07 12:12:59,599 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-11-07 12:12:59,600 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-11-07 12:12:59,601 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-11-07 12:12:59,601 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+INFO 2019-11-07 12:12:59,815 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 11
+INFO 2019-11-07 12:12:59,899 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 11
+INFO 2019-11-07 12:12:59,907 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 11
+INFO 2019-11-07 12:12:59,934 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 11
+INFO 2019-11-07 12:12:59,939 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 37
+INFO 2019-11-07 12:12:59,951 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 11
+INFO 2019-11-07 12:12:59,972 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 11
+INFO 2019-11-07 12:12:59,995 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2019-11-07 12:13:03,799 basehttp 124 "OPTIONS /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-11-07 12:13:03,852 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 304
+INFO 2019-11-07 12:13:07,445 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 12:13:07,450 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 12:13:07,461 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 0
+ERROR 2019-11-07 12:13:07,490 exception 135 Internal Server Error: /meiduo_admin/skus/simple/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/views/images.py", line 19, in simple
+    ser = SKUSerializer(data,many=True)
+NameError: name 'SKUSerializer' is not defined
+INFO 2019-11-07 12:13:07,555 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 1617
+ERROR 2019-11-07 12:13:07,698 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 500 19194
+ERROR 2019-11-07 12:13:07,735 exception 135 Internal Server Error: /meiduo_admin/skus/simple/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/views/images.py", line 19, in simple
+    ser = SKUSerializer(data,many=True)
+NameError: name 'SKUSerializer' is not defined
+ERROR 2019-11-07 12:13:07,772 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 500 19194
+INFO 2019-11-07 12:13:14,294 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=2&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-07 12:13:14,362 basehttp 124 "GET /meiduo_admin/skus/images/?page=2&pagesize=10 HTTP/1.1" 200 1623
+INFO 2019-11-07 12:13:15,602 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=3&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-07 12:13:15,638 basehttp 124 "GET /meiduo_admin/skus/images/?page=3&pagesize=10 HTTP/1.1" 200 1623
+INFO 2019-11-07 12:13:16,148 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=4&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-07 12:13:16,216 basehttp 124 "GET /meiduo_admin/skus/images/?page=4&pagesize=10 HTTP/1.1" 200 1629
+INFO 2019-11-07 12:13:16,870 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=5&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-07 12:13:16,880 basehttp 124 "GET /meiduo_admin/skus/images/?page=5&pagesize=10 HTTP/1.1" 200 1631
+INFO 2019-11-07 12:13:19,589 basehttp 124 "GET /meiduo_admin/skus/images/?page=4&pagesize=10 HTTP/1.1" 200 1629
+INFO 2019-11-07 12:13:19,776 basehttp 124 "GET /meiduo_admin/skus/images/?page=3&pagesize=10 HTTP/1.1" 200 1623
+INFO 2019-11-07 12:13:19,976 basehttp 124 "GET /meiduo_admin/skus/images/?page=2&pagesize=10 HTTP/1.1" 200 1623
+INFO 2019-11-07 12:13:20,130 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 1617
+INFO 2019-11-07 12:13:26,928 basehttp 124 "GET /meiduo_admin/skus/images/?page=2&pagesize=10 HTTP/1.1" 200 1623
+INFO 2019-11-07 12:13:27,663 basehttp 124 "GET /meiduo_admin/skus/images/?page=3&pagesize=10 HTTP/1.1" 200 1623
+INFO 2019-11-07 12:17:52,551 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 1617
+INFO 2019-11-07 12:17:52,557 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 8344
+INFO 2019-11-07 12:17:52,788 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 8344
+INFO 2019-11-07 12:31:00,154 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 12:31:00,188 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 12:31:00,189 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-07 12:31:00,416 basehttp 124 "OPTIONS /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-11-07 12:31:00,489 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 304
+INFO 2019-11-07 12:31:03,454 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 304
+INFO 2019-11-07 12:31:11,111 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 12:31:11,115 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-11-07 12:31:11,123 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-07 12:31:11,198 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 8344
+INFO 2019-11-07 12:31:11,208 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 1617
+INFO 2019-11-07 12:31:11,222 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 8344
+INFO 2019-11-07 12:31:22,331 basehttp 124 "OPTIONS /meiduo_admin/skus/images/ HTTP/1.1" 200 0
+ERROR 2019-11-07 12:31:22,375 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../../../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-07 12:31:22,454 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21164
+ERROR 2019-11-07 12:31:24,843 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../../../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-07 12:31:24,875 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21164
+ERROR 2019-11-07 12:31:25,504 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../../../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-07 12:31:25,537 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21164
+ERROR 2019-11-07 12:31:25,785 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../../../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-07 12:31:25,826 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21164
+ERROR 2019-11-07 12:31:25,938 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../../../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-07 12:31:25,962 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21164
+ERROR 2019-11-07 12:31:26,136 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../../../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-07 12:31:26,167 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21164
+ERROR 2019-11-07 12:31:26,587 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../../../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-07 12:31:26,615 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21164
+ERROR 2019-11-07 12:31:26,738 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../../../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-07 12:31:26,769 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21164
+ERROR 2019-11-07 12:31:26,911 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../../../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-07 12:31:26,942 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21164
+ERROR 2019-11-07 12:34:00,356 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 25, in create
+    img = SKUImage.objects.create(sku=sku,image=image)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1111, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1064, in as_sql
+    for obj in self.query.objs
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1064, in <listcomp>
+    for obj in self.query.objs
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1063, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1013, in pre_save_val
+    return field.pre_save(obj, add=True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/fields/files.py", line 296, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/fields/files.py", line 94, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/files/storage.py", line 53, in save
+    name = self.get_available_name(name, max_length=max_length)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/files/storage.py", line 77, in get_available_name
+    while self.exists(name) or (max_length and len(name) > max_length):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/files/storage.py", line 127, in exists
+    raise NotImplementedError('subclasses of Storage must provide an exists() method')
+NotImplementedError: subclasses of Storage must provide an exists() method
+ERROR 2019-11-07 12:34:01,144 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 23981
+ERROR 2019-11-07 12:34:29,635 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 25, in create
+    img = SKUImage.objects.create(sku=sku,image=image)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1111, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1064, in as_sql
+    for obj in self.query.objs
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1064, in <listcomp>
+    for obj in self.query.objs
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1063, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1013, in pre_save_val
+    return field.pre_save(obj, add=True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/fields/files.py", line 296, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/fields/files.py", line 94, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/files/storage.py", line 53, in save
+    name = self.get_available_name(name, max_length=max_length)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/files/storage.py", line 77, in get_available_name
+    while self.exists(name) or (max_length and len(name) > max_length):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/files/storage.py", line 127, in exists
+    raise NotImplementedError('subclasses of Storage must provide an exists() method')
+NotImplementedError: subclasses of Storage must provide an exists() method
+ERROR 2019-11-07 12:34:30,226 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 23981
+ERROR 2019-11-07 12:34:54,953 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 25, in create
+    img = SKUImage.objects.create(sku=sku,image=image)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1111, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1064, in as_sql
+    for obj in self.query.objs
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1064, in <listcomp>
+    for obj in self.query.objs
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1063, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1013, in pre_save_val
+    return field.pre_save(obj, add=True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/fields/files.py", line 296, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/fields/files.py", line 94, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/files/storage.py", line 53, in save
+    name = self.get_available_name(name, max_length=max_length)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/files/storage.py", line 77, in get_available_name
+    while self.exists(name) or (max_length and len(name) > max_length):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/files/storage.py", line 127, in exists
+    raise NotImplementedError('subclasses of Storage must provide an exists() method')
+NotImplementedError: subclasses of Storage must provide an exists() method
+ERROR 2019-11-07 12:34:55,502 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 23981
+ERROR 2019-11-07 12:37:12,094 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/git/electriity/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 25, in create
+    img = SKUImage.objects.create(sku=sku,image=image)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/query.py", line 394, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1111, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1064, in as_sql
+    for obj in self.query.objs
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1064, in <listcomp>
+    for obj in self.query.objs
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1063, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1013, in pre_save_val
+    return field.pre_save(obj, add=True)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/fields/files.py", line 296, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/fields/files.py", line 94, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/files/storage.py", line 53, in save
+    name = self.get_available_name(name, max_length=max_length)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/files/storage.py", line 77, in get_available_name
+    while self.exists(name) or (max_length and len(name) > max_length):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/files/storage.py", line 127, in exists
+    raise NotImplementedError('subclasses of Storage must provide an exists() method')
+NotImplementedError: subclasses of Storage must provide an exists() method
+ERROR 2019-11-07 12:37:12,668 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 23981
+INFO 2019-11-07 12:38:10,001 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 201 195
+INFO 2019-11-07 12:38:10,048 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-07 12:38:10,226 basehttp 124 "GET /meiduo_admin/skus/images/?pagesize=10 HTTP/1.1" 200 1617
+INFO 2019-11-07 12:38:15,248 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=6&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-07 12:38:15,319 basehttp 124 "GET /meiduo_admin/skus/images/?page=6&pagesize=10 HTTP/1.1" 200 251
