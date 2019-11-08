@@ -17149,3 +17149,1365 @@ INFO 2019-11-07 12:38:10,048 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?pa
 INFO 2019-11-07 12:38:10,226 basehttp 124 "GET /meiduo_admin/skus/images/?pagesize=10 HTTP/1.1" 200 1617
 INFO 2019-11-07 12:38:15,248 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=6&pagesize=10 HTTP/1.1" 200 0
 INFO 2019-11-07 12:38:15,319 basehttp 124 "GET /meiduo_admin/skus/images/?page=6&pagesize=10 HTTP/1.1" 200 251
+INFO 2019-11-08 01:46:09,957 basehttp 124 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+INFO 2019-11-08 01:46:10,302 basehttp 124 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 239
+INFO 2019-11-08 01:46:10,520 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2019-11-08 01:46:10,523 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-11-08 01:46:10,531 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-11-08 01:46:10,539 basehttp 124 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2019-11-08 01:46:10,540 basehttp 124 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2019-11-08 01:46:10,555 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2019-11-08 01:46:10,556 basehttp 124 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2019-11-08 01:46:10,558 basehttp 124 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+INFO 2019-11-08 01:46:10,610 basehttp 124 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 11
+INFO 2019-11-08 01:46:10,616 basehttp 124 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 11
+INFO 2019-11-08 01:46:10,628 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 11
+INFO 2019-11-08 01:46:10,657 basehttp 124 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 11
+INFO 2019-11-08 01:46:10,667 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 11
+INFO 2019-11-08 01:46:10,673 basehttp 124 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 2
+INFO 2019-11-08 01:46:10,681 basehttp 124 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 11
+INFO 2019-11-08 01:46:10,695 basehttp 124 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2019-11-08 01:46:14,279 basehttp 124 "OPTIONS /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-11-08 01:46:14,351 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 304
+INFO 2019-11-08 01:46:20,533 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-11-08 01:46:20,539 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-11-08 01:46:20,540 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-08 01:46:20,584 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-08 01:46:20,596 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-08 01:46:20,610 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1154
+INFO 2019-11-08 01:46:29,905 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/6/ HTTP/1.1" 200 0
+ERROR 2019-11-08 01:46:30,022 exception 135 Internal Server Error: /meiduo_admin/goods/specs/6/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 91, in destroy
+    self.perform_destroy(instance)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 95, in perform_destroy
+    instance.delete()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 973, in delete
+    collector.collect([self], keep_parents=keep_parents)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/deletion.py", line 223, in collect
+    field.remote_field.on_delete(self, field, sub_objs, self.using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/deletion.py", line 17, in CASCADE
+    source_attr=field.name, nullable=field.null)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/deletion.py", line 223, in collect
+    field.remote_field.on_delete(self, field, sub_objs, self.using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/deletion.py", line 28, in PROTECT
+    sub_objs
+django.db.models.deletion.ProtectedError: ("Cannot delete some instances of model 'SpecificationOption' because they are referenced through a protected foreign key: 'SKUSpecification.option'", <QuerySet [<SKUSpecification: 9: 华为 HUAWEI P10 Plus 6GB+64GB 钻雕金 移动联通电信4G手机 双卡双待: 颜色 - 钻雕金>, <SKUSpecification: 10: 华为 HUAWEI P10 Plus 6GB+128GB 钻雕金 移动联通电信4G手机 双卡双待: 颜色 - 钻雕金>, <SKUSpecification: 11: 华为 HUAWEI P10 Plus 6GB+128GB 钻雕蓝 移动联通电信4G手机 双卡双待: 颜色 - 钻雕蓝>, <SKUSpecification: 12: 华为 HUAWEI P10 Plus 6GB+64GB 钻雕蓝 移动联通电信4G手机 双卡双待: 颜色 - 钻雕蓝>, <SKUSpecification: 13: 华为 HUAWEI P10 Plus 6GB+64GB 玫瑰金 移动联通电信4G手机 双卡双待: 颜色 - 玫瑰金>, <SKUSpecification: 14: 华为 HUAWEI P10 Plus 6GB+128GB 玫瑰金 移动联通电信4G手机 双卡双待: 颜色 - 玫瑰金>, <SKUSpecification: 15: 华为 HUAWEI P10 Plus 6GB+64GB 曜石黑 移动联通电信4G手机 双卡双待: 颜色 - 曜石黑>, <SKUSpecification: 16: 华为 HUAWEI P10 Plus 6GB+128GB 曜石黑 移动联通电信4G手机 双卡双待: 颜色 - 曜石黑>]>)
+ERROR 2019-11-08 01:46:30,282 basehttp 124 "DELETE /meiduo_admin/goods/specs/6/ HTTP/1.1" 500 22611
+INFO 2019-11-08 01:46:38,736 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-08 01:46:38,822 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1154
+INFO 2019-11-08 01:46:38,840 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+ERROR 2019-11-08 01:46:42,290 exception 135 Internal Server Error: /meiduo_admin/goods/specs/6/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 91, in destroy
+    self.perform_destroy(instance)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 95, in perform_destroy
+    instance.delete()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 973, in delete
+    collector.collect([self], keep_parents=keep_parents)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/deletion.py", line 223, in collect
+    field.remote_field.on_delete(self, field, sub_objs, self.using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/deletion.py", line 17, in CASCADE
+    source_attr=field.name, nullable=field.null)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/deletion.py", line 223, in collect
+    field.remote_field.on_delete(self, field, sub_objs, self.using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/deletion.py", line 28, in PROTECT
+    sub_objs
+django.db.models.deletion.ProtectedError: ("Cannot delete some instances of model 'SpecificationOption' because they are referenced through a protected foreign key: 'SKUSpecification.option'", <QuerySet [<SKUSpecification: 9: 华为 HUAWEI P10 Plus 6GB+64GB 钻雕金 移动联通电信4G手机 双卡双待: 颜色 - 钻雕金>, <SKUSpecification: 10: 华为 HUAWEI P10 Plus 6GB+128GB 钻雕金 移动联通电信4G手机 双卡双待: 颜色 - 钻雕金>, <SKUSpecification: 11: 华为 HUAWEI P10 Plus 6GB+128GB 钻雕蓝 移动联通电信4G手机 双卡双待: 颜色 - 钻雕蓝>, <SKUSpecification: 12: 华为 HUAWEI P10 Plus 6GB+64GB 钻雕蓝 移动联通电信4G手机 双卡双待: 颜色 - 钻雕蓝>, <SKUSpecification: 13: 华为 HUAWEI P10 Plus 6GB+64GB 玫瑰金 移动联通电信4G手机 双卡双待: 颜色 - 玫瑰金>, <SKUSpecification: 14: 华为 HUAWEI P10 Plus 6GB+128GB 玫瑰金 移动联通电信4G手机 双卡双待: 颜色 - 玫瑰金>, <SKUSpecification: 15: 华为 HUAWEI P10 Plus 6GB+64GB 曜石黑 移动联通电信4G手机 双卡双待: 颜色 - 曜石黑>, <SKUSpecification: 16: 华为 HUAWEI P10 Plus 6GB+128GB 曜石黑 移动联通电信4G手机 双卡双待: 颜色 - 曜石黑>]>)
+ERROR 2019-11-08 01:46:42,457 basehttp 124 "DELETE /meiduo_admin/goods/specs/6/ HTTP/1.1" 500 22611
+INFO 2019-11-08 01:55:03,893 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/7/ HTTP/1.1" 200 0
+ERROR 2019-11-08 01:55:03,930 exception 135 Internal Server Error: /meiduo_admin/goods/specs/7/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 91, in destroy
+    self.perform_destroy(instance)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 95, in perform_destroy
+    instance.delete()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 973, in delete
+    collector.collect([self], keep_parents=keep_parents)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/deletion.py", line 223, in collect
+    field.remote_field.on_delete(self, field, sub_objs, self.using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/deletion.py", line 17, in CASCADE
+    source_attr=field.name, nullable=field.null)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/deletion.py", line 223, in collect
+    field.remote_field.on_delete(self, field, sub_objs, self.using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/deletion.py", line 28, in PROTECT
+    sub_objs
+django.db.models.deletion.ProtectedError: ("Cannot delete some instances of model 'SpecificationOption' because they are referenced through a protected foreign key: 'SKUSpecification.option'", <QuerySet [<SKUSpecification: 9: 华为 HUAWEI P10 Plus 6GB+64GB 钻雕金 移动联通电信4G手机 双卡双待: 版本 - 64GB>, <SKUSpecification: 10: 华为 HUAWEI P10 Plus 6GB+128GB 钻雕金 移动联通电信4G手机 双卡双待: 版本 - 128GB>, <SKUSpecification: 11: 华为 HUAWEI P10 Plus 6GB+128GB 钻雕蓝 移动联通电信4G手机 双卡双待: 版本 - 128GB>, <SKUSpecification: 12: 华为 HUAWEI P10 Plus 6GB+64GB 钻雕蓝 移动联通电信4G手机 双卡双待: 版本 - 64GB>, <SKUSpecification: 13: 华为 HUAWEI P10 Plus 6GB+64GB 玫瑰金 移动联通电信4G手机 双卡双待: 版本 - 64GB>, <SKUSpecification: 14: 华为 HUAWEI P10 Plus 6GB+128GB 玫瑰金 移动联通电信4G手机 双卡双待: 版本 - 128GB>, <SKUSpecification: 15: 华为 HUAWEI P10 Plus 6GB+64GB 曜石黑 移动联通电信4G手机 双卡双待: 版本 - 64GB>, <SKUSpecification: 16: 华为 HUAWEI P10 Plus 6GB+128GB 曜石黑 移动联通电信4G手机 双卡双待: 版本 - 128GB>]>)
+ERROR 2019-11-08 01:55:04,081 basehttp 124 "DELETE /meiduo_admin/goods/specs/7/ HTTP/1.1" 500 22539
+INFO 2019-11-08 02:03:23,402 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-11-08 02:03:23,403 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2019-11-08 02:03:23,404 basehttp 124 "OPTIONS /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-08 02:03:23,581 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 854
+INFO 2019-11-08 02:03:23,620 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 854
+INFO 2019-11-08 02:03:23,648 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 1501
+INFO 2019-11-08 02:03:27,742 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-11-08 02:03:27,743 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-11-08 02:03:27,744 basehttp 124 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2019-11-08 02:03:27,745 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-11-08 02:03:27,746 basehttp 124 "OPTIONS /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+WARNING 2019-11-08 02:03:27,784 base 152 Not Found: /meiduo_admin/skus/categories/
+WARNING 2019-11-08 02:03:27,789 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 14017
+WARNING 2019-11-08 02:03:27,804 base 152 Not Found: /meiduo_admin/skus/
+WARNING 2019-11-08 02:03:27,808 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 404 14020
+INFO 2019-11-08 02:03:27,812 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+WARNING 2019-11-08 02:03:27,821 base 152 Not Found: /meiduo_admin/skus/categories/
+WARNING 2019-11-08 02:03:27,825 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 14017
+INFO 2019-11-08 02:03:27,853 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-08 02:03:34,550 basehttp 124 "OPTIONS /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2019-11-08 02:03:34,588 base 152 Not Found: /meiduo_admin/goods/
+WARNING 2019-11-08 02:03:34,589 basehttp 124 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 404 14010
+WARNING 2019-11-08 02:03:35,892 base 152 Not Found: /meiduo_admin/skus/categories/
+WARNING 2019-11-08 02:03:35,906 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 14017
+WARNING 2019-11-08 02:03:35,915 base 152 Not Found: /meiduo_admin/skus/
+WARNING 2019-11-08 02:03:35,916 basehttp 124 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 404 14020
+INFO 2019-11-08 02:03:35,932 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+WARNING 2019-11-08 02:03:35,933 base 152 Not Found: /meiduo_admin/skus/categories/
+WARNING 2019-11-08 02:03:35,934 basehttp 124 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 14017
+INFO 2019-11-08 02:03:35,953 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-08 02:03:37,033 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 854
+INFO 2019-11-08 02:03:37,081 basehttp 124 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 1501
+INFO 2019-11-08 02:03:37,085 basehttp 124 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 854
+INFO 2019-11-08 02:04:16,494 basehttp 124 "OPTIONS /meiduo_admin/specs/options/6/ HTTP/1.1" 200 0
+INFO 2019-11-08 02:04:16,786 basehttp 124 "DELETE /meiduo_admin/specs/options/6/ HTTP/1.1" 204 0
+INFO 2019-11-08 02:04:16,806 basehttp 124 "OPTIONS /meiduo_admin/specs/options/?pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-08 02:04:17,000 basehttp 124 "GET /meiduo_admin/specs/options/?pagesize=10 HTTP/1.1" 200 1475
+INFO 2019-11-08 02:04:20,551 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-08 02:04:20,595 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-08 02:04:20,634 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1154
+INFO 2019-11-08 02:04:20,674 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+ERROR 2019-11-08 02:04:23,544 exception 135 Internal Server Error: /meiduo_admin/goods/specs/7/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 91, in destroy
+    self.perform_destroy(instance)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 95, in perform_destroy
+    instance.delete()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/base.py", line 973, in delete
+    collector.collect([self], keep_parents=keep_parents)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/deletion.py", line 223, in collect
+    field.remote_field.on_delete(self, field, sub_objs, self.using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/deletion.py", line 17, in CASCADE
+    source_attr=field.name, nullable=field.null)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/deletion.py", line 223, in collect
+    field.remote_field.on_delete(self, field, sub_objs, self.using)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/db/models/deletion.py", line 28, in PROTECT
+    sub_objs
+django.db.models.deletion.ProtectedError: ("Cannot delete some instances of model 'SpecificationOption' because they are referenced through a protected foreign key: 'SKUSpecification.option'", <QuerySet [<SKUSpecification: 9: 华为 HUAWEI P10 Plus 6GB+64GB 钻雕金 移动联通电信4G手机 双卡双待: 版本 - 64GB>, <SKUSpecification: 10: 华为 HUAWEI P10 Plus 6GB+128GB 钻雕金 移动联通电信4G手机 双卡双待: 版本 - 128GB>, <SKUSpecification: 11: 华为 HUAWEI P10 Plus 6GB+128GB 钻雕蓝 移动联通电信4G手机 双卡双待: 版本 - 128GB>, <SKUSpecification: 12: 华为 HUAWEI P10 Plus 6GB+64GB 钻雕蓝 移动联通电信4G手机 双卡双待: 版本 - 64GB>, <SKUSpecification: 13: 华为 HUAWEI P10 Plus 6GB+64GB 玫瑰金 移动联通电信4G手机 双卡双待: 版本 - 64GB>, <SKUSpecification: 14: 华为 HUAWEI P10 Plus 6GB+128GB 玫瑰金 移动联通电信4G手机 双卡双待: 版本 - 128GB>, <SKUSpecification: 15: 华为 HUAWEI P10 Plus 6GB+64GB 曜石黑 移动联通电信4G手机 双卡双待: 版本 - 64GB>, <SKUSpecification: 16: 华为 HUAWEI P10 Plus 6GB+128GB 曜石黑 移动联通电信4G手机 双卡双待: 版本 - 128GB>]>)
+ERROR 2019-11-08 02:04:23,688 basehttp 124 "DELETE /meiduo_admin/goods/specs/7/ HTTP/1.1" 500 22539
+INFO 2019-11-08 02:04:51,433 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/ HTTP/1.1" 200 0
+INFO 2019-11-08 02:04:51,517 basehttp 124 "POST /meiduo_admin/goods/specs/ HTTP/1.1" 201 151
+INFO 2019-11-08 02:04:51,631 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1306
+INFO 2019-11-08 02:04:55,930 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/8/ HTTP/1.1" 200 0
+INFO 2019-11-08 02:04:56,089 basehttp 124 "DELETE /meiduo_admin/goods/specs/8/ HTTP/1.1" 204 0
+INFO 2019-11-08 02:04:56,195 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1154
+INFO 2019-11-08 03:21:32,871 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-11-08 03:21:32,891 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-11-08 03:21:32,891 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-08 03:21:33,759 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-08 03:21:33,829 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1154
+INFO 2019-11-08 03:21:33,927 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-08 03:31:42,882 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-11-08 03:31:42,890 basehttp 124 "OPTIONS /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-08 03:31:42,910 basehttp 124 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2019-11-08 03:31:43,290 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-08 03:31:43,421 basehttp 124 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1154
+INFO 2019-11-08 03:31:43,526 basehttp 124 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 10742
+INFO 2019-11-08 03:31:46,240 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-11-08 03:31:46,242 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-11-08 03:31:46,255 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-08 03:31:46,416 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 8344
+INFO 2019-11-08 03:31:46,417 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 1617
+INFO 2019-11-08 03:31:46,458 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 8344
+INFO 2019-11-08 03:31:48,792 basehttp 124 "OPTIONS /meiduo_admin/skus/images/4/ HTTP/1.1" 200 0
+INFO 2019-11-08 03:31:48,812 basehttp 124 "GET /meiduo_admin/skus/images/4/ HTTP/1.1" 200 194
+ERROR 2019-11-08 03:31:59,942 exception 135 Internal Server Error: /meiduo_admin/skus/images/4/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 68, in update
+    self.perform_update(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 78, in perform_update
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 32, in update
+    res = client.upload_by_buffer(image.read())
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 125, in upload_by_buffer
+    store_serv = tc.tracker_query_storage_stor_without_group()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/tracker_client.py", line 381, in tracker_query_storage_stor_without_group
+    raise DataError('[-] Error: %d, %s' % (th.status, os.strerror(th.status)))
+fdfs_client.exceptions.DataError: [-] Error: 2, No such file or directory
+ERROR 2019-11-08 03:32:01,476 basehttp 124 "PUT /meiduo_admin/skus/images/4/ HTTP/1.1" 500 20273
+INFO 2019-11-08 03:32:54,802 basehttp 124 "OPTIONS /meiduo_admin/skus/images/ HTTP/1.1" 200 0
+ERROR 2019-11-08 03:32:54,895 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 20, in create
+    res = client.upload_by_buffer(image.read())
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 125, in upload_by_buffer
+    store_serv = tc.tracker_query_storage_stor_without_group()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/tracker_client.py", line 381, in tracker_query_storage_stor_without_group
+    raise DataError('[-] Error: %d, %s' % (th.status, os.strerror(th.status)))
+fdfs_client.exceptions.DataError: [-] Error: 2, No such file or directory
+ERROR 2019-11-08 03:32:55,411 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 20246
+ERROR 2019-11-08 03:32:55,869 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 20, in create
+    res = client.upload_by_buffer(image.read())
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 125, in upload_by_buffer
+    store_serv = tc.tracker_query_storage_stor_without_group()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/tracker_client.py", line 381, in tracker_query_storage_stor_without_group
+    raise DataError('[-] Error: %d, %s' % (th.status, os.strerror(th.status)))
+fdfs_client.exceptions.DataError: [-] Error: 2, No such file or directory
+ERROR 2019-11-08 03:32:56,354 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 20246
+ERROR 2019-11-08 03:32:57,124 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 20, in create
+    res = client.upload_by_buffer(image.read())
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 125, in upload_by_buffer
+    store_serv = tc.tracker_query_storage_stor_without_group()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/tracker_client.py", line 381, in tracker_query_storage_stor_without_group
+    raise DataError('[-] Error: %d, %s' % (th.status, os.strerror(th.status)))
+fdfs_client.exceptions.DataError: [-] Error: 2, No such file or directory
+ERROR 2019-11-08 03:32:57,598 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 20246
+INFO 2019-11-08 03:33:35,365 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 1617
+INFO 2019-11-08 03:33:35,400 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 8344
+INFO 2019-11-08 03:33:35,488 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 8344
+ERROR 2019-11-08 03:33:48,773 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-08 03:33:48,824 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21178
+ERROR 2019-11-08 03:33:50,143 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-08 03:33:50,174 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21178
+ERROR 2019-11-08 03:33:50,302 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-08 03:33:50,332 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21178
+ERROR 2019-11-08 03:33:50,454 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-08 03:33:50,517 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21178
+INFO 2019-11-08 03:36:32,369 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 1617
+INFO 2019-11-08 03:36:32,391 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 8344
+INFO 2019-11-08 03:36:32,515 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 8344
+ERROR 2019-11-08 03:37:02,870 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-08 03:37:02,911 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21178
+ERROR 2019-11-08 03:37:03,587 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-08 03:37:03,612 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21178
+ERROR 2019-11-08 03:37:03,729 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-08 03:37:03,758 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21178
+ERROR 2019-11-08 03:37:03,935 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-08 03:37:03,964 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21178
+ERROR 2019-11-08 03:37:04,088 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-08 03:37:04,123 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21178
+ERROR 2019-11-08 03:37:04,240 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-08 03:37:04,273 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21178
+ERROR 2019-11-08 03:38:36,392 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-08 03:38:36,417 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21178
+ERROR 2019-11-08 03:38:40,679 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-08 03:38:40,706 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21178
+ERROR 2019-11-08 03:38:41,149 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-08 03:38:41,173 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21178
+ERROR 2019-11-08 03:38:41,325 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-08 03:38:41,353 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21178
+ERROR 2019-11-08 03:38:41,478 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-08 03:38:41,508 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21178
+INFO 2019-11-08 03:39:10,773 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 1617
+INFO 2019-11-08 03:39:10,800 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 8344
+INFO 2019-11-08 03:39:12,582 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 8344
+ERROR 2019-11-08 03:39:23,894 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-08 03:39:23,920 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21178
+ERROR 2019-11-08 03:39:24,533 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-08 03:39:24,565 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21178
+ERROR 2019-11-08 03:39:24,667 exception 135 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/configparser.py", line 786, in get
+    value = d[option]
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 878, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/collections/__init__.py", line 870, in __missing__
+    raise KeyError(key)
+KeyError: 'connect_timeout'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/rest_framework/serializers.py", line 213, in save
+    self.instance = self.create(validated_data)
+  File "/home/python/Desktop/backstage/meiduo_mall/apps/meiduo_admin/serializers/images.py", line 19, in create
+    client = Fdfs_client('../utils/fastdfs/client.conf')
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 46, in __init__
+    self.trackers = get_tracker_conf(conf_path)
+  File "/home/python/.virtualenvs/meiduo_mall/lib/python3.5/site-packages/fdfs_client/client.py", line 21, in get_tracker_conf
+    timeout = cf.getint('__config__', 'connect_timeout')
+  File "/usr/lib/python3.5/configparser.py", line 816, in getint
+    fallback=fallback, **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 806, in _get_conv
+    **kwargs)
+  File "/usr/lib/python3.5/configparser.py", line 800, in _get
+    return conv(self.get(section, option, **kwargs))
+  File "/usr/lib/python3.5/configparser.py", line 789, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'connect_timeout' in section: '__config__'
+ERROR 2019-11-08 03:39:24,698 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 500 21178
+INFO 2019-11-08 03:39:48,920 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 8344
+INFO 2019-11-08 03:39:48,960 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 1617
+INFO 2019-11-08 03:39:49,037 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 8344
+INFO 2019-11-08 03:40:05,230 basehttp 124 "POST /meiduo_admin/skus/images/ HTTP/1.1" 201 195
+INFO 2019-11-08 03:40:05,269 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-08 03:40:05,326 basehttp 124 "GET /meiduo_admin/skus/images/?pagesize=10 HTTP/1.1" 200 1617
+INFO 2019-11-08 03:40:10,368 basehttp 124 "GET /meiduo_admin/skus/images/4/ HTTP/1.1" 200 194
+INFO 2019-11-08 03:40:17,028 basehttp 124 "PUT /meiduo_admin/skus/images/4/ HTTP/1.1" 200 194
+INFO 2019-11-08 03:40:17,109 basehttp 124 "GET /meiduo_admin/skus/images/?pagesize=10 HTTP/1.1" 200 1617
+INFO 2019-11-08 03:41:51,453 basehttp 124 "OPTIONS /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2019-11-08 03:41:51,549 basehttp 124 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 304
+INFO 2019-11-08 03:42:04,646 basehttp 124 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+WARNING 2019-11-08 03:42:04,674 base 152 Not Found: /meiduo_admin/orders/
+WARNING 2019-11-08 03:42:04,680 basehttp 124 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 404 14026
+INFO 2019-11-08 03:42:08,530 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-11-08 03:42:08,533 basehttp 124 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2019-11-08 03:42:08,541 basehttp 124 "OPTIONS /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2019-11-08 03:42:08,628 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 8344
+INFO 2019-11-08 03:42:08,634 basehttp 124 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 1617
+INFO 2019-11-08 03:42:08,647 basehttp 124 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 8344
