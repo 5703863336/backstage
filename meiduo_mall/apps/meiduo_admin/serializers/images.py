@@ -1,7 +1,9 @@
 from fdfs_client.client import Fdfs_client
 from rest_framework import serializers
+from celery_tasks.static_html.tasks import get_detail_html
 
 from apps.goods.models import SKUImage, SKU
+
 
 
 class SKUImageSerializer(serializers.ModelSerializer):
@@ -35,6 +37,8 @@ class SKUImageSerializer(serializers.ModelSerializer):
         path = res.get('Remote file_id')
         instance.image = path
         instance.save()
+        print(type(sku))
+        get_detail_html.delay(sku.id)
         return instance
 
 class SKUSerializer(serializers.ModelSerializer):
